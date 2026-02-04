@@ -15,3 +15,7 @@ Intended use:
 - DFU units and infrastructure
 - Volunteer and support networks
 - Secure personal setups of DFU personnel
+
+Instructions
+- For console setup run (name a desired file at the end):
+```ip/dns/adlist/add url=https://raw.githubusercontent.com/okrys-afu/ua-adlist/refs/heads/main/hosts/legal_casino.txt```
