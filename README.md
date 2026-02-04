@@ -17,5 +17,7 @@ Intended use:
 - Secure personal setups of DFU personnel
 
 Instructions
-- For console setup run (name a desired file at the end):
-```ip/dns/adlist/add url=https://raw.githubusercontent.com/okrys-afu/ua-adlist/refs/heads/main/hosts/legal_casino.txt```
+- For console setup run (replace with a desired filename at the end):
+```routeros
+ip/dns/adlist/add ssl-verify=no url=https://raw.githubusercontent.com/okrys-afu/ua-adlist/refs/heads/main/hosts/legal_casino.txt
+```
